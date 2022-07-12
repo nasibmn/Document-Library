@@ -1,0 +1,3 @@
+[submodule "DocumentLibrary/client"]
+	path = DocumentLibrary/client
+	url = https://github.com/nasibmn/Documnet-Library.git
