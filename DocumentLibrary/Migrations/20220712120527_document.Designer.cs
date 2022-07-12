@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DocumentLibrary.Migrations
 {
     [DbContext(typeof(DocumentDbContext))]
-    [Migration("20220711183641_documents")]
-    partial class documents
+    [Migration("20220712120527_document")]
+    partial class document
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
