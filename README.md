@@ -2,7 +2,12 @@
 Document Library where we can add, download or share our files.
 
 - download the project
-- goto documentlibrary-react and run npm install command to install react dependencies
+- goto documentlibrary-react folder and run npm install command to install react dependencies
+
+- create .env file inside the documentlibrary-react folder and add the urls:
+  REACT_APP_DOCUMENT_URL = https://localhost:44357/api/document
+  REACT_APP_IMAGE_URL = https://localhost:44357/
+
 - open the project solution in visual studio first change the database connection settings in appsettings. Now in console manager run "add-migration" document sencondly run update-database and then run project with iisexpress server.
 - now goto documentlibrary-react and run "npm start" to run react.
 
